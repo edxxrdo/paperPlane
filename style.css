@@ -45,9 +45,13 @@ card i:hover {
 
 }
 
-a {
+button {
 
+	cursor: pointer;
+	background: none;
+	border-style: none;
 	color: inherit;
 	text-decoration: inherit;
 
 }
+
