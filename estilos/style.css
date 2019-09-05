@@ -1,36 +1,29 @@
 *{margin: 0px; padding: 0px;}
 html { scroll-behavior: smooth; } 
 body {
-
 	background-color: #333953;
-
 }
 
 #we {
-
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	vertical-align: center;
-
 }
 
 #we down {
-
 	position: absolute;
 	animation: cimaBaixo 1s infinite;
 	font-size: 36px;
 	color: white;
-
+	outline: 0;
 }
 
 @keyframes cimaBaixo {
-	
 	0% {bottom: 25px;}
 	50% {bottom: 30px;}
 	100% {bottom: 25px;}
-	
 }
 
 card
@@ -45,7 +38,6 @@ card
 	background-image: linear-gradient(-45deg,#f403d1,#64b5f6);
 	border-radius: 2em;
 	color: white;
-	
 }
 
 #vermelho {
@@ -81,7 +73,6 @@ card i:hover {
 }
 
 button {
-
 	cursor: pointer;
 	background: none;
 	border-style: none;
@@ -90,7 +81,7 @@ button {
 	text-decoration: inherit;
 	border: none;
 	color: white;
-
+	outline: 0;
 }
 
 a {
